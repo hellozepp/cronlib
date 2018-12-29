@@ -2,7 +2,7 @@
 
 Cronlib is easy golang crontab library, support parse crontab and schedule cron jobs.
 
-** go **
+**go**
 
 cron_parser.go import https://github.com/robfig/cron/blob/master/parser.go , thank @robfig
 
@@ -11,8 +11,7 @@ cron_parser.go import https://github.com/robfig/cron/blob/master/parser.go , tha
 * thread safe
 * dynamic modify job cron
 * dynamic add job
-* stop job
-* stop jobs by service
+* stop service job
 * add Join method for waiting all job exit
 * async & sync mode
 
